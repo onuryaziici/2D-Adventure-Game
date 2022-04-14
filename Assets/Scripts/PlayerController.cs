@@ -22,7 +22,8 @@ public class PlayerController : MonoBehaviour
         transform.position += velocity * speedAmount * Time.deltaTime;
         animator.SetFloat("Speed",Mathf.Abs(Input.GetAxis("Horizontal")));
 
-        if(Input.GetButtonDown("Jump")  && !animator.GetBool("IsJumping") )
+        // if(Input.GetButtonDown("Jump")  && !animator.GetBool("IsJumping") )
+        if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) ) && !animator.GetBool("IsJumping") )
         {
             rgb.AddForce(Vector3.up*jumpAmount,ForceMode2D.Impulse);
             animator.SetBool("IsJumping",true);
