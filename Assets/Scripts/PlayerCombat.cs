@@ -9,14 +9,29 @@ public class PlayerCombat : MonoBehaviour
     public LayerMask enemyLayers;
     public float attackRange=0.5f;
     public int attackDamage = 40;
+    public float attackRate = 2f;
+    float nextAttackTime=0f;
+
+  
 
     // Update is called once per frame
+    void Start() {
+    {
+      
+    }
+    }
     void Update()
     {
-          if(Input.GetButtonDown("Jump"))
+        if(Time.time >= nextAttackTime)
         {
-            Attack();
+            if(Input.GetButtonDown("Jump"))
+            {
+                Attack();
+                nextAttackTime = Time.time + 1f / attackRate;
+
+            }
         }
+       
     }
 
     void Attack()
@@ -37,4 +52,9 @@ public class PlayerCombat : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position,attackRange);
 
     }
+
+
+
+
+        
 }
