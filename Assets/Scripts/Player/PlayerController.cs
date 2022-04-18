@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
         {
             if(collision.gameObject.name== "Ground")
             {
-                Debug.Log("Grounded");
+                
                 animator.SetBool("IsJumping",false);
             }
 
