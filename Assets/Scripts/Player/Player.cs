@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
      public int maxHealth = 100;
     public int currentHealth;
     public bool IsDead=false;
+    
     void Start()
     {
         currentHealth = maxHealth;
@@ -21,7 +22,13 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        currentHealth -=damage;
+        // GetComponent<PlayerCombat>().defenseStatus;
+        if (!(GetComponent<PlayerCombat>().defenseStatus))
+        {
+            currentHealth -=damage;
+        }
+        
+        
 
         //play hurt animation
         // animator.SetTrigger("Hurt");
@@ -41,5 +48,15 @@ public class Player : MonoBehaviour
          this.enabled = false;
         GetComponent<PlayerController>().enabled = false;
         GetComponent<PlayerCombat>().enabled = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.gameObject.tag==("Coin"))
+        {
+            Debug.Log("Triggered");
+            Destroy(other.gameObject);
+        }
+        
     }
 }

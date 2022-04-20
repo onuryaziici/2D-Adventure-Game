@@ -11,7 +11,7 @@ public class PlayerCombat : MonoBehaviour
     public int attackDamage = 40;
     public float attackRate = 2f;
     float nextAttackTime=0f;
-
+    public bool defenseStatus;
   
 
     // Update is called once per frame
@@ -31,6 +31,16 @@ public class PlayerCombat : MonoBehaviour
 
             }
         }
+
+        if (Input.GetKeyDown("h"))
+        {
+            Defense();
+        }
+        else if(Input.GetKeyUp("h"))
+        {
+            animator.SetBool("Shield",false);
+            defenseStatus=false;
+        }
        
     }
 
@@ -43,6 +53,7 @@ public class PlayerCombat : MonoBehaviour
             enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }
     }
+    
 
     void OnDrawGizmosSelected() 
     {
@@ -53,7 +64,13 @@ public class PlayerCombat : MonoBehaviour
 
     }
 
-
+    void Defense()
+    {
+        animator.SetBool("Shield",true);
+        defenseStatus=true;
+        animator.SetTrigger("Defense");
+        
+    }
 
 
         

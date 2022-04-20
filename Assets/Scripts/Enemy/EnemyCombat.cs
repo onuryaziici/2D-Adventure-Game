@@ -10,15 +10,24 @@ public class EnemyCombat : MonoBehaviour
     public Transform attackPoint;
     public LayerMask enemyLayers;
     public float attackRange=0.5f;
-    public int attackDamage = 40;
-    public float attackRate = 2f;
+    public int attackDamage = 20;
+    public float attackRate = 1f;
     float nextAttackTime=0f;
      public Transform target;
      public bool distan;
      public Player player;
+     public GameObject player1;
      public int ch;
 
     // Update is called once per frame
+
+    void Start()
+    {
+        player1 = GameObject.FindWithTag("Player");  
+        target = player1.transform;
+        player=GameObject.FindWithTag("Player").GetComponent<Player>(); 
+        
+    }
     void Update()
     {
         ch=player.currentHealth;

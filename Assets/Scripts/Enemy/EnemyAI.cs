@@ -22,12 +22,15 @@ public class EnemyAI : MonoBehaviour
     Seeker seeker;
     Rigidbody2D rb;
     Vector3 lastPosition = Vector3.zero;
+     GameObject player;
     void Start()
     {
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
 
-        
+        player = GameObject.FindWithTag("Player");  
+        target = player.transform;
+
         InvokeRepeating("UpdatePath",0f, .5f);
 
 
