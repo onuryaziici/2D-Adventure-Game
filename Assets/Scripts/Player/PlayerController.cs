@@ -9,6 +9,11 @@ public class PlayerController : MonoBehaviour
     public float speedAmount=5f;
     public float jumpAmount=5f;
     public Animator animator;
+    public Animator chestanimator;
+    public bool canMove;
+    public GameObject heart;
+    //  bool isCreated=false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,11 +24,15 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         velocity = new Vector3(Input.GetAxis("Horizontal"),0f);
-        transform.position += velocity * speedAmount * Time.deltaTime;
+        if (canMove)
+        {
+             transform.position += velocity * speedAmount * Time.deltaTime;
+        }
+       
         animator.SetFloat("Speed",Mathf.Abs(Input.GetAxis("Horizontal")));
 
         // if(Input.GetButtonDown("Jump")  && !animator.GetBool("IsJumping") )
-        if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) ) && !animator.GetBool("IsJumping") )
+        if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) ) && !animator.GetBool("IsJumping") && canMove )
         {
             rgb.AddForce(Vector3.up*jumpAmount,ForceMode2D.Impulse);
             animator.SetBool("IsJumping",true);
@@ -51,6 +60,26 @@ public class PlayerController : MonoBehaviour
                 
                 animator.SetBool("IsJumping",false);
             }
+               
+                if(collision.gameObject.tag== "Chest")
+                {
+                     
+                    chestanimator.SetBool("IsAround",true);
+                        // bool isCreated=false;
+                        //  if(!isCreated)
+                        //  {
+                             
+                        //     Instantiate(heart, transform.position+new Vector3(5f,0f,0f), transform.rotation);
+                        //     isCreated = true;
+                        //     }
+                }
+
+                if(collision.gameObject.tag== "Statue")
+                {
+                    
+                    Debug.Log("Game Finished");
+                }
+
 
         }
     private void OnCollisionExit2D(Collision2D collision) 
@@ -59,6 +88,34 @@ public class PlayerController : MonoBehaviour
             {
                 animator.SetBool("IsJumping",true);
             }
-
         }
+
+            // private void OnTriggerEnter2D(Collider2D other)
+            // {
+               
+            //     if(other.gameObject.tag== "Chest")
+            //     {   
+                    
+            //         if(!isCreated)
+            //         {
+            //             Instantiate(heart, transform.position+new Vector3(7f,0f,0f), transform.rotation);
+            //             isCreated = true;
+            //         }
+                    
+            //         chestanimator.SetBool("IsAround",true);
+            //     }
+             
+            // }
+            // private void OnTriggerExit2D(Collider2D other)
+            // {
+            //     if(other.gameObject.tag== "Chest")
+            //     {
+                    
+            //          chestanimator.SetBool("IsAround",false);
+            //     }
+             
+            // }
+            
+
+
 }

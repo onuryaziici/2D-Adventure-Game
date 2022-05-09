@@ -8,16 +8,18 @@ public class Player : MonoBehaviour
      public int maxHealth = 100;
     public int currentHealth;
     public bool IsDead=false;
+    public HealthBar healthBar;
     
     void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        healthBar.SetHealth(currentHealth);
     }
 
     public void TakeDamage(int damage)
@@ -26,6 +28,7 @@ public class Player : MonoBehaviour
         if (!(GetComponent<PlayerCombat>().defenseStatus))
         {
             currentHealth -=damage;
+            // healthBar.SetHealth(currentHealth);
         }
         
         
@@ -57,6 +60,18 @@ public class Player : MonoBehaviour
             Debug.Log("Triggered");
             Destroy(other.gameObject);
         }
+
+        if(other.gameObject.tag==("Heart"))
+        {
+            currentHealth=currentHealth+20;
+            if(currentHealth>maxHealth)
+            {currentHealth=maxHealth;}
+            Destroy(other.gameObject);
+        }
+
+
+                    
+                            
         
     }
 }

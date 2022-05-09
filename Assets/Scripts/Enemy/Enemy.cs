@@ -10,18 +10,25 @@ public class Enemy : MonoBehaviour
     public GameObject coin;
     public GameObject myObjects;
       int maxEnemies = 3;
+      public bool hurt=false;
+       public HealthBar healthBar;
+       public Canvas canvas1;
 public int enemyCounter = 0;
 
     void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
         // int randomIndex = Random.Range(0, myObjects.Length);
         //  Spawn();
-        for (int i = 0; i < 5; i++)
-        {
-            GameObject go=Instantiate(myObjects) as GameObject;
-            // go.transform.parent = GameObject.Find("Enemy").transform;
-        }
+
+        //enemy spawn
+
+        // for (int i = 0; i < 5; i++)
+        // {
+        //     GameObject go=Instantiate(myObjects) as GameObject;
+        //     // go.transform.parent = GameObject.Find("Enemy").transform;
+        // }
         
 
     }
@@ -58,6 +65,8 @@ public int enemyCounter = 0;
     public void TakeDamage(int damage)
     {
         currentHealth -=damage;
+        healthBar.SetHealth(currentHealth);
+        
 
         //play hurt animation
         animator.SetTrigger("Hurt");
@@ -66,6 +75,7 @@ public int enemyCounter = 0;
         {
             Die();
         }
+        
 
     }
 
@@ -79,6 +89,7 @@ public int enemyCounter = 0;
         this.enabled = false;
         GetComponent<EnemyCombat>().enabled = false;
         GetComponent<EnemyAI>().enabled = false;
+        canvas1.gameObject.SetActive(false);
         Instantiate(coin, transform.position, transform.rotation);
         // Instantiate(coin, new Vector3(0, 0, 0), Quaternion.identity);
 
