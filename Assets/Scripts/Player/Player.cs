@@ -9,9 +9,13 @@ public class Player : MonoBehaviour
     public int currentHealth;
     public bool IsDead=false;
     public HealthBar healthBar;
+
+
+
     
     void Start()
     {
+        // healthBar = GameObject.Find("/Canvas/Health bar").GetComponent<Health_bar>;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
