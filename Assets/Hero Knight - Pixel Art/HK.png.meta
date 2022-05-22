@@ -1,0 +1,2376 @@
+fileFormatVersion: 2
+guid: cf2b9c7057d2b2849ad92028162300d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -111649486326267610
+    second: HK_0
+  - first:
+      213: -6911993772580297037
+    second: HK_1
+  - first:
+      213: 5041348476517215179
+    second: HK_2
+  - first:
+      213: -7082652461143866190
+    second: HK_3
+  - first:
+      213: 6543163624146147916
+    second: HK_4
+  - first:
+      213: -9063685736945896666
+    second: HK_5
+  - first:
+      213: 755527675993894339
+    second: HK_6
+  - first:
+      213: -6876730943790552682
+    second: HK_7
+  - first:
+      213: 4007447057761234274
+    second: HK_8
+  - first:
+      213: 6138526163328441735
+    second: HK_9
+  - first:
+      213: 7061070558643176578
+    second: HK_10
+  - first:
+      213: 3461818643673945687
+    second: HK_11
+  - first:
+      213: -6110341988854846025
+    second: HK_12
+  - first:
+      213: -8327796749014521318
+    second: HK_13
+  - first:
+      213: 4883508250874065300
+    second: HK_14
+  - first:
+      213: -7922837368115823950
+    second: HK_15
+  - first:
+      213: 2377736548595050203
+    second: HK_16
+  - first:
+      213: 7281865264234646644
+    second: HK_17
+  - first:
+      213: -7865389779813294958
+    second: HK_18
+  - first:
+      213: 1309965012785222857
+    second: HK_19
+  - first:
+      213: 5558614235030501417
+    second: HK_20
+  - first:
+      213: 2702520960628296136
+    second: HK_21
+  - first:
+      213: 1943713399029224011
+    second: HK_22
+  - first:
+      213: -625770662242689003
+    second: HK_23
+  - first:
+      213: -5273599141595441563
+    second: HK_24
+  - first:
+      213: -6542579265120372836
+    second: HK_25
+  - first:
+      213: -9198762180812037304
+    second: HK_26
+  - first:
+      213: 7380234573236935269
+    second: HK_27
+  - first:
+      213: -4094597773726569387
+    second: HK_28
+  - first:
+      213: -8567464116624262522
+    second: HK_29
+  - first:
+      213: 4698746888271817745
+    second: HK_30
+  - first:
+      213: 3519543422925577799
+    second: HK_31
+  - first:
+      213: -1193931489508806362
+    second: HK_32
+  - first:
+      213: 2116851159490107668
+    second: HK_33
+  - first:
+      213: 1057891797434105796
+    second: HK_34
+  - first:
+      213: -4558219714407646517
+    second: HK_35
+  - first:
+      213: -1194164628175067236
+    second: HK_36
+  - first:
+      213: 8837933252734336158
+    second: HK_37
+  - first:
+      213: -505604608965579352
+    second: HK_38
+  - first:
+      213: 4591582113352533442
+    second: HK_39
+  - first:
+      213: -4979888446438482370
+    second: HK_40
+  - first:
+      213: 8988088872691481763
+    second: HK_41
+  - first:
+      213: -2361378895937849353
+    second: HK_42
+  - first:
+      213: 3255308053514647045
+    second: HK_43
+  - first:
+      213: -5904475608855207888
+    second: HK_44
+  - first:
+      213: 7116213120840324800
+    second: HK_45
+  - first:
+      213: 7913775030603249575
+    second: HK_46
+  - first:
+      213: -4577568957900330607
+    second: HK_47
+  - first:
+      213: 1402427386910208382
+    second: HK_48
+  - first:
+      213: 2648924788275556693
+    second: HK_49
+  - first:
+      213: 6471866189319933277
+    second: HK_50
+  - first:
+      213: -9188956651669660063
+    second: HK_51
+  - first:
+      213: 430447594581983778
+    second: HK_52
+  - first:
+      213: -1910435256218290302
+    second: HK_53
+  - first:
+      213: 9082987474557987277
+    second: HK_54
+  - first:
+      213: -8116984029590457254
+    second: HK_55
+  - first:
+      213: -1140334321442511445
+    second: HK_56
+  - first:
+      213: 6225983746461881998
+    second: HK_57
+  - first:
+      213: -6103209751116957704
+    second: HK_58
+  - first:
+      213: 4933952745417575645
+    second: HK_59
+  - first:
+      213: -7011189959869097243
+    second: HK_60
+  - first:
+      213: 3594597975300588234
+    second: HK_61
+  - first:
+      213: 5860239632219048113
+    second: HK_62
+  - first:
+      213: -248565542197078474
+    second: HK_63
+  - first:
+      213: -2691867808517063021
+    second: HK_64
+  - first:
+      213: 982866320199229808
+    second: HK_65
+  - first:
+      213: 7323082854999905265
+    second: HK_66
+  - first:
+      213: -3233157091497553007
+    second: HK_67
+  - first:
+      213: 3119670818272698613
+    second: HK_68
+  - first:
+      213: 3544971339564205026
+    second: HK_69
+  - first:
+      213: 1341460484850776510
+    second: HK_70
+  - first:
+      213: -3220274490532822703
+    second: HK_71
+  - first:
+      213: 4869621740753162611
+    second: HK_72
+  - first:
+      213: -1161131640491044970
+    second: HK_73
+  - first:
+      213: 8496116268674856120
+    second: HK_74
+  - first:
+      213: 2841006384999386175
+    second: HK_75
+  - first:
+      213: -297171887444065433
+    second: HK_76
+  - first:
+      213: -5218731859545997713
+    second: HK_77
+  - first:
+      213: 2404623367521131381
+    second: HK_78
+  - first:
+      213: -3199484214512201780
+    second: HK_79
+  - first:
+      213: 7183314810290516107
+    second: HK_80
+  - first:
+      213: 7141669648613530074
+    second: HK_81
+  - first:
+      213: 5364258660803202493
+    second: HK_82
+  - first:
+      213: -3734333209751980233
+    second: HK_83
+  - first:
+      213: 8291568396421646148
+    second: HK_84
+  - first:
+      213: 5216059895731712186
+    second: HK_85
+  - first:
+      213: -3451382871348057644
+    second: HK_86
+  - first:
+      213: -2407386732493477806
+    second: HK_87
+  - first:
+      213: -20643240911964030
+    second: HK_88
+  - first:
+      213: -3565510361507356910
+    second: HK_89
+  - first:
+      213: -7696524692204166774
+    second: HK_90
+  - first:
+      213: -3513081896419123904
+    second: HK_91
+  - first:
+      213: -7724300469287141446
+    second: HK_92
+  - first:
+      213: -8843064270303921978
+    second: HK_93
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HK_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 442
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6210b2c3267537ef0800000000000000
+      internalID: -111649486326267610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 442
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6a3aff84aa310a0800000000000000
+      internalID: -6911993772580297037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 442
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbe3cbaab776f540800000000000000
+      internalID: 5041348476517215179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 442
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b449f1bc1d55bd90800000000000000
+      internalID: -7082652461143866190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 442
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a1d7426acfdca50800000000000000
+      internalID: 6543163624146147916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_5
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 442
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623b09df7d1573280800000000000000
+      internalID: -9063685736945896666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 442
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cda7991b6c2c7a00800000000000000
+      internalID: 755527675993894339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_7
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 442
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6996d6f14a1f090a0800000000000000
+      internalID: -6876730943790552682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_8
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 442
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dea0edddf4d9730800000000000000
+      internalID: 4007447057761234274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_9
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 442
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d12a1b50d603550800000000000000
+      internalID: 6138526163328441735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 387
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28445ed0346fdf160800000000000000
+      internalID: 7061070558643176578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 387
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756920507b9da0030800000000000000
+      internalID: 3461818643673945687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 387
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd272ac554b33ba0800000000000000
+      internalID: -6110341988854846025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 387
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a2655baf8bd6c80800000000000000
+      internalID: -8327796749014521318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_14
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 387
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491b90751e4b5c340800000000000000
+      internalID: 4883508250874065300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_15
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 387
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baf344046d6c0290800000000000000
+      internalID: -7922837368115823950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_16
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 387
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6a87c0bca6ff020800000000000000
+      internalID: 2377736548595050203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_17
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 387
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c46f870e16e0560800000000000000
+      internalID: 7281865264234646644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_18
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 387
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c9d3afaa588d290800000000000000
+      internalID: -7865389779813294958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_19
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 387
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4d0471d3eed2210800000000000000
+      internalID: 1309965012785222857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_20
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 332
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9283c6a223a242d40800000000000000
+      internalID: 5558614235030501417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 341
+        width: 60
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c90c40ce78418520800000000000000
+      internalID: 2702520960628296136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 332
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42dd46c90579fa10800000000000000
+      internalID: 1943713399029224011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_23
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 332
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510e92ee5e0d057f0800000000000000
+      internalID: -625770662242689003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_24
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 332
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566166d758960d6b0800000000000000
+      internalID: -5273599141595441563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_25
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 332
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97f9ab82d61435a0800000000000000
+      internalID: -6542579265120372836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_26
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 332
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843a66f988e675080800000000000000
+      internalID: -9198762180812037304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_27
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 351
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a18d00e3cdb6660800000000000000
+      internalID: 7380234573236935269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_28
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 332
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c2ce6d4011d27c0800000000000000
+      internalID: -4094597773726569387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_29
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 332
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a74be37c04a1980800000000000000
+      internalID: -8567464116624262522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_30
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 332
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ce9ec566d453140800000000000000
+      internalID: 4698746888271817745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_31
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 332
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e9a07881ee7d030800000000000000
+      internalID: 3519543422925577799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_32
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 277
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621bca1d2ad4e6fe0800000000000000
+      internalID: -1193931489508806362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_33
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 277
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41918cbf9e0906d10800000000000000
+      internalID: 2116851159490107668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_34
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 277
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cffbdc1cf26eae00800000000000000
+      internalID: 1057891797434105796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 282
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcabc8af153fdb0c0800000000000000
+      internalID: -4558219714407646517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_36
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 277
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97e94ef8997d6fe0800000000000000
+      internalID: -1194164628175067236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_37
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 277
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cb7ddc775a6aa70800000000000000
+      internalID: 8837933252734336158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_38
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 282
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad6ec5794bbbf8f0800000000000000
+      internalID: -505604608965579352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_39
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 277
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c54a67da9398bf30800000000000000
+      internalID: 4591582113352533442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 277
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e56f0b7d1e3eab0800000000000000
+      internalID: -4979888446438482370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_41
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 277
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acba62753b1cbc70800000000000000
+      internalID: 8988088872691481763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_42
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 277
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7358fb762ba3fd0800000000000000
+      internalID: -2361378895937849353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_43
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 280
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50675346d6d2d2d20800000000000000
+      internalID: 3255308053514647045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_44
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 227
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0302a3d87b61f0ea0800000000000000
+      internalID: -5904475608855207888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_45
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 224
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c659ad412ed1c260800000000000000
+      internalID: 7116213120840324800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_46
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 224
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7767b167063dd60800000000000000
+      internalID: 7913775030603249575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_47
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 224
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ee7929453970c0800000000000000
+      internalID: -4577568957900330607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_48
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 224
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71ff0c274c667310800000000000000
+      internalID: 1402427386910208382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_49
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 222
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55134e17f0fd2c420800000000000000
+      internalID: 2648924788275556693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_50
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 222
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d86408200b0d950800000000000000
+      internalID: 6471866189319933277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_51
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 222
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e54c84c944a7080800000000000000
+      internalID: -9188956651669660063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_52
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 222
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2220b718ec149f500800000000000000
+      internalID: 430447594581983778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_53
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 222
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287f9b2a145cc75e0800000000000000
+      internalID: -1910435256218290302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_54
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 167
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9e9500cf04d0e70800000000000000
+      internalID: 9082987474557987277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_55
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 167
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54fdbcd70eaa5f80800000000000000
+      internalID: -8116984029590457254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_56
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 167
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5ab35f9f7bc20f0800000000000000
+      internalID: -1140334321442511445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_57
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 167
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8657311b33276650800000000000000
+      internalID: 6225983746461881998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_58
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 167
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f739fa411b0d4ba0800000000000000
+      internalID: -6103209751116957704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_59
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 167
+        width: 70
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc8d2971ebe87440800000000000000
+      internalID: 4933952745417575645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_60
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 167
+        width: 70
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea973dd0ef33be90800000000000000
+      internalID: -7011189959869097243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_61
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 167
+        width: 70
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2412440d392e130800000000000000
+      internalID: 3594597975300588234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_62
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 167
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8051985e0c35150800000000000000
+      internalID: 5860239632219048113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_63
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 167
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636d0f1d4faec8cf0800000000000000
+      internalID: -248565542197078474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_64
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 103
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ef7038d7094aad0800000000000000
+      internalID: -2691867808517063021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 112
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071ab25f5b7d3ad00800000000000000
+      internalID: 982866320199229808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_66
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 112
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3d509ae01d0a560800000000000000
+      internalID: 7323082854999905265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_67
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193d04a51c48123d0800000000000000
+      internalID: -3233157091497553007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_68
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 112
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0eb4b941c4b4b20800000000000000
+      internalID: 3119670818272698613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_69
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 112
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e34aa9b6a4423130800000000000000
+      internalID: 3544971339564205026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_70
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 112
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9f0cf1433dd9210800000000000000
+      internalID: 1341460484850776510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_71
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 112
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1510a80a9694f43d0800000000000000
+      internalID: -3220274490532822703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_72
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 112
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3719c104c2f549340800000000000000
+      internalID: 4869621740753162611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_73
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 112
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f8017cce4d2efe0800000000000000
+      internalID: -1161131640491044970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_74
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 57
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b438c46bb448e570800000000000000
+      internalID: 8496116268674856120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_75
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 57
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c418e31484d6720800000000000000
+      internalID: 2841006384999386175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_76
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 57
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7630aab2ebb30ebf0800000000000000
+      internalID: -297171887444065433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_77
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 57
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e3fb516075397b0800000000000000
+      internalID: -5218731859545997713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_78
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 57
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b53b76630fe5120800000000000000
+      internalID: 2404623367521131381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_79
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 57
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfc789fe062993d0800000000000000
+      internalID: -3199484214512201780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_80
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 57
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b803b29d2c240b360800000000000000
+      internalID: 7183314810290516107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_81
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 57
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad95ccc05be4c1360800000000000000
+      internalID: 7141669648613530074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_82
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 57
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdcc78b4dca17a40800000000000000
+      internalID: 5364258660803202493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_83
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 57
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737f9c72bbbfc2cc0800000000000000
+      internalID: -3734333209751980233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_84
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 13
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4474193a681911370800000000000000
+      internalID: 8291568396421646148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_85
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 11
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0ff3cd6da236840800000000000000
+      internalID: 5216059895731712186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_86
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d96e6190993a10d0800000000000000
+      internalID: -3451382871348057644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_87
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258ecbc858e379ed0800000000000000
+      internalID: -2407386732493477806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_88
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288fd6ee419a6bff0800000000000000
+      internalID: -20643240911964030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_89
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f11639733c48ec0800000000000000
+      internalID: -3565510361507356910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_90
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81e5240293703590800000000000000
+      internalID: -7696524692204166774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_91
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d1519d0a60f3fc0800000000000000
+      internalID: -3513081896419123904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_92
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfb1c5f5a5cdc490800000000000000
+      internalID: -7724300469287141446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HK_93
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8f59216ef174580800000000000000
+      internalID: -8843064270303921978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,16 +7,19 @@ public class PlayerManager : MonoBehaviour
 {
     public static Vector2 lastCheckPointPos = new Vector2(-5,1);
     public GameObject[] playerPrefabs;
-    int characterIndex;
+    public int characterIndex;
+    CharacterSelect cS;
 
     public CinemachineVirtualCamera VCam;
     private void Awake()
     {
-        
-        characterIndex=PlayerPrefs.GetInt("SelectedCharacter",0);
+        characterIndex=PlayerPrefs.GetInt("SelectedCharacter");
         playerPrefabs[characterIndex].SetActive(true);
         GameObject playerrr = playerPrefabs[characterIndex];
-        // Instantiate(playerPrefabs[characterIndex],lastCheckPointPos,Quaternion.identity);
         VCam.m_Follow = playerrr.transform;
+        // Instantiate(playerPrefabs[characterIndex],lastCheckPointPos,Quaternion.identity);
     }
+
+
+
 }

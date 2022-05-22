@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class PlayerController : MonoBehaviour
     public Animator chestanimator;
     public bool canMove;
     public GameObject heart;
+    public Joystick joystick;
+    public float hizdurum =0f;
+    public int nextSceneLoad;
+    public int PlayerHangisi;
+    // public CharacterSelect chaSelect;
+    
     //  bool isCreated=false;
     
     // Start is called before the first frame update
@@ -23,27 +30,48 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        velocity = new Vector3(Input.GetAxis("Horizontal"),0f);
-        if (canMove)
+        // velocity = new Vector3(Input.GetAxis("Horizontal"),0f);
+        // velocity = new Vector3(joystick.Horizontal,0f);
+        if (joystick.Horizontal>=.2f)
         {
-             transform.position += velocity * speedAmount * Time.deltaTime;
+            hizdurum=1f;
+            velocity=new Vector3(1,0f);
+            if (canMove)
+            {
+                transform.position += velocity * speedAmount * Time.deltaTime;
+            }
         }
-       
-        animator.SetFloat("Speed",Mathf.Abs(Input.GetAxis("Horizontal")));
+        else if (joystick.Horizontal<=-.2f)
+        {
+            hizdurum=-1f;
+            velocity=new Vector3(-1,0f);
+            if (canMove)
+            {
+                transform.position += velocity * speedAmount * Time.deltaTime;
+            }
+        }
+        else
+        {
+            hizdurum=0f;
+        }
+
+        animator.SetFloat("Speed",Mathf.Abs(hizdurum));
 
         // if(Input.GetButtonDown("Jump")  && !animator.GetBool("IsJumping") )
-        if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) ) && !animator.GetBool("IsJumping") && canMove )
+        float verticalMove =joystick.Vertical;
+        if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)|| verticalMove>=.5f) && !animator.GetBool("IsJumping") && canMove )
         {
             rgb.AddForce(Vector3.up*jumpAmount,ForceMode2D.Impulse);
             animator.SetBool("IsJumping",true);
         }
         
-        if(Input.GetAxisRaw("Horizontal")== -1)
+        // if(Input.GetAxisRaw("Horizontal")== -1)
+        if(joystick.Horizontal<0)
         {
             transform.rotation = Quaternion.Euler(0f,180f,0f);
         }
 
-        else if(Input.GetAxisRaw("Horizontal")== 1)
+        else if(joystick.Horizontal>0)
         {
             transform.rotation = Quaternion.Euler(0f,0f,0f);
         }
@@ -76,7 +104,13 @@ public class PlayerController : MonoBehaviour
 
                 if(collision.gameObject.tag== "Statue")
                 {
-                    
+
+                    nextSceneLoad=SceneManager.GetActiveScene().buildIndex + 1;
+                    PlayerPrefs.SetInt("levelReached",nextSceneLoad-1);
+                    PlayerHangisi=PlayerPrefs.GetInt("SelectedCharacter");
+                    SceneManager.LoadScene(nextSceneLoad);
+                    // SceneManager.GetActiveScene().buildIndex;
+                    PlayerPrefs.SetInt("SavedScene",2);
                     Debug.Log("Game Finished");
                 }
 

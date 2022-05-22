@@ -77,8 +77,11 @@ public class EnemyAI : MonoBehaviour
         veloc=rb.velocity;
         
         
-
-        rb.AddForce(force);
+        if (TargetInDistance())
+        {
+            rb.AddForce(force);
+        }
+        
 
         float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
         
