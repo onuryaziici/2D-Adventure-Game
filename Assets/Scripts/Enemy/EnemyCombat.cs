@@ -47,13 +47,13 @@ public class EnemyCombat : MonoBehaviour
 
     void Attack()
     {
-        Debug.Log("Attacked");
-        animator.SetTrigger("Attack");
-        Collider2D[]  hitPlayers= Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
+        
+        Collider2D[] hitPlayers= Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
         foreach(Collider2D player in hitPlayers)
         {
             player.GetComponent<Player>().TakeDamage(attackDamage);
         }
+        animator.SetTrigger("Attack");
     }
 
     void OnDrawGizmosSelected() 

@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     public int currentHealth;
     public bool IsDead=false;
     public HealthBar healthBar;
+    public int coin;
+    public GameObject gameOver;
 
 
 
@@ -18,6 +20,7 @@ public class Player : MonoBehaviour
         // healthBar = GameObject.Find("/Canvas/Health bar").GetComponent<Health_bar>;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        Time.timeScale=1f;
     }
 
     // Update is called once per frame
@@ -31,9 +34,14 @@ public class Player : MonoBehaviour
         // GetComponent<PlayerCombat>().defenseStatus;
         if (!(GetComponent<PlayerCombat>().defenseStatus))
         {
+            animator.SetTrigger("Hurt");
             currentHealth -=damage;
             // healthBar.SetHealth(currentHealth);
         }
+        // else
+        // {
+        //     FindObjectOfType<AudioManager>().Play("Block");
+        // }
         
         
 
@@ -42,12 +50,17 @@ public class Player : MonoBehaviour
 
         if(currentHealth<=0)
         {
+            currentHealth=0;
+            healthBar.SetHealth(0);
             Die();
         }
     }
     void Die()
     {
-        Debug.Log("Player died !");
+        // gameOver=GameObject.Find("GameOverScreen1");
+       
+
+        FindObjectOfType<AudioManager>().Play("Game Over");
         //die animation
          animator.SetBool("IsDead",true);
         //disable the enemy
@@ -55,18 +68,22 @@ public class Player : MonoBehaviour
          this.enabled = false;
         GetComponent<PlayerController>().enabled = false;
         GetComponent<PlayerCombat>().enabled = false;
+                gameOver.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
         if(other.gameObject.tag==("Coin"))
         {
-            Debug.Log("Triggered");
+            FindObjectOfType<AudioManager>().Play("Coin");
+            coin=PlayerPrefs.GetInt("Coin")+1;
+            PlayerPrefs.SetInt("Coin",coin);
             Destroy(other.gameObject);
         }
 
         if(other.gameObject.tag==("Heart"))
         {
+            FindObjectOfType<AudioManager>().Play("Health");
             currentHealth=currentHealth+20;
             if(currentHealth>maxHealth)
             {currentHealth=maxHealth;}

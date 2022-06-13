@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject[] playerPrefabs;
     public int characterIndex;
     CharacterSelect cS;
+    public Text score;
 
     public CinemachineVirtualCamera VCam;
     private void Awake()
@@ -18,6 +20,12 @@ public class PlayerManager : MonoBehaviour
         GameObject playerrr = playerPrefabs[characterIndex];
         VCam.m_Follow = playerrr.transform;
         // Instantiate(playerPrefabs[characterIndex],lastCheckPointPos,Quaternion.identity);
+    }
+    public void Update()
+    {
+        score.text=PlayerPrefs.GetInt("Coin").ToString();
+        // score = GetComponent<Text>();
+        // score.text=playerPrefabs.GetInt("Coin");
     }
 
 

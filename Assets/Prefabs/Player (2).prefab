@@ -189,11 +189,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedAmount: 5
-  jumpAmount: 8
+  jumpAmount: 6
   animator: {fileID: 6548772655239542633}
   chestanimator: {fileID: 0}
   canMove: 1
   heart: {fileID: 6951287843407061375, guid: 713d23c52d4b6394a8f7dc2eb45d2917, type: 3}
+  joystick: {fileID: 0}
+  hizdurum: 0
+  nextSceneLoad: 0
+  PlayerHangisi: 0
 --- !u!114 &6548772655239542634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,6 +223,8 @@ MonoBehaviour:
   attackRate: 2
   defenseStatus: 0
   playerContoller: {fileID: 6548772655239542635}
+  AttackButton: {fileID: 0}
+  DefanseButton: {fileID: 0}
 --- !u!114 &6548772654164010621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,6 +242,8 @@ MonoBehaviour:
   currentHealth: 0
   IsDead: 0
   healthBar: {fileID: 0}
+  coin: 0
+  gameOver: {fileID: 0}
 --- !u!114 &6548772655239542639
 MonoBehaviour:
   m_ObjectHideFlags: 0

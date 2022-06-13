@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public float hizdurum =0f;
     public int nextSceneLoad;
     public int PlayerHangisi;
+    public GameObject gameWin;
     // public CharacterSelect chaSelect;
     
     //  bool isCreated=false;
@@ -104,14 +105,23 @@ public class PlayerController : MonoBehaviour
 
                 if(collision.gameObject.tag== "Statue")
                 {
+                    if (SceneManager.GetActiveScene().buildIndex==3)
+                    {
+                       Time.timeScale=0f;
+                       gameWin.SetActive(true);
+                    }
+                    else
+                    {
+                        FindObjectOfType<AudioManager>().Play("LevelSuccess");
+                        nextSceneLoad=SceneManager.GetActiveScene().buildIndex + 1;
+                        PlayerPrefs.SetInt("levelReached",nextSceneLoad-1);
+                        PlayerHangisi=PlayerPrefs.GetInt("SelectedCharacter");
+                        SceneManager.LoadScene(nextSceneLoad);
+                        // SceneManager.GetActiveScene().buildIndex;
+                        PlayerPrefs.SetInt("SavedScene",2);
+                    }
 
-                    nextSceneLoad=SceneManager.GetActiveScene().buildIndex + 1;
-                    PlayerPrefs.SetInt("levelReached",nextSceneLoad-1);
-                    PlayerHangisi=PlayerPrefs.GetInt("SelectedCharacter");
-                    SceneManager.LoadScene(nextSceneLoad);
-                    // SceneManager.GetActiveScene().buildIndex;
-                    PlayerPrefs.SetInt("SavedScene",2);
-                    Debug.Log("Game Finished");
+
                 }
 
 

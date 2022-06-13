@@ -24,7 +24,10 @@ public class MainMenu : MonoBehaviour
         gO.SetActive(false);
     
     }
-    public int createGame;
+    public void CreateGame()
+    {
+        PlayerPrefs.DeleteAll();
+    }
     // public void PlayGame()
     // {
     //     PlayerPrefs.SetInt("SelectedCharacter",selectedCharacter);

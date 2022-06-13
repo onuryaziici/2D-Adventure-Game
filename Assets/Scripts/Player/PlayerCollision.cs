@@ -27,7 +27,7 @@ public class PlayerCollision : MonoBehaviour
 
                     if(!isCreated)
                     {
-                        Instantiate(heart, transform.position+new Vector3(5f,0f,0f), transform.rotation);
+                        Instantiate(heart,new Vector3(transform.position.x+5f,-2.5f,0f), transform.rotation);
                         isCreated = true;
                     }
                 }

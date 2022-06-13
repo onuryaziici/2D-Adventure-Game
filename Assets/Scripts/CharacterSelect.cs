@@ -28,11 +28,12 @@ public class CharacterSelect : MonoBehaviour
     }
     public void PlayGame()
     {
+        PlayerPrefs.DeleteAll();
         PlayerPrefs.GetInt("SavedScene",currentSceneIndex);
         currentSceneIndex=SceneManager.GetActiveScene().buildIndex+1;
         PlayerPrefs.SetInt("SavedScene",currentSceneIndex);
         selectedCharacter=PlayerPrefs.GetInt("SelectedCharacter",selectedCharacter);
         PlayerPrefs.SetInt("SelectedCharacter",selectedCharacter);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 }

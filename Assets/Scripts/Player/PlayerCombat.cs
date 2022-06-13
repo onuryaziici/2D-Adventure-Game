@@ -64,17 +64,17 @@ public class PlayerCombat : MonoBehaviour
         //     }
         // }
 
-        if (Input.GetKeyDown("h"))
-        {
-            playerContoller.canMove=false;
-            Defense();
-        }
-        else if(Input.GetKeyUp("h"))
-        {
-            playerContoller.canMove=true;
-            animator.SetBool("Shield",false);
-            defenseStatus=false;
-        }
+        // if (Input.GetKeyDown("h"))
+        // {
+        //     playerContoller.canMove=false;
+        //     Defense();
+        // }
+        // else if(Input.GetKeyUp("h"))
+        // {
+        //     playerContoller.canMove=true;
+        //     animator.SetBool("Shield",false);
+        //     defenseStatus=false;
+        // }
 
 
        
@@ -90,7 +90,7 @@ public class PlayerCombat : MonoBehaviour
                 enemy.GetComponent<Boss>().TakeDamage(attackDamage);
                 
             }
-
+            FindObjectOfType<AudioManager>().Play("Attack");
             animator.SetTrigger("Attack");
             Collider2D[]  hitEnemies= Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
             foreach(Collider2D enemy in hitEnemies)

@@ -81,7 +81,6 @@ public int enemyCounter = 0;
 
     void Die()
     {
-        Debug.Log("Enemy died !");
         //die animation
         animator.SetBool("IsDead",true);
         //disable the enemy
@@ -90,7 +89,8 @@ public int enemyCounter = 0;
         GetComponent<EnemyCombat>().enabled = false;
         GetComponent<EnemyAI>().enabled = false;
         canvas1.gameObject.SetActive(false);
-        Instantiate(coin, transform.position, transform.rotation);
+        // Instantiate(coin, transform.position, transform.rotation);
+        Instantiate(coin, new Vector3(transform.position.x, -2.5f, 0), transform.rotation);
         // Instantiate(coin, new Vector3(0, 0, 0), Quaternion.identity);
 
     }
